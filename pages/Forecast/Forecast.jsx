@@ -24,7 +24,7 @@ export function Forecast({}) {
         {backButton}
         <View style={s.header_texts}>
           <Txt>{params.city}</Txt>
-          <Txt style={s.subtitle}>Prévision sur 7 jours</Txt>
+          <Txt style={s.subtitle}>Les 7 prochains jours</Txt>
         </View>
       </View>
     </>
@@ -45,8 +45,7 @@ export function Forecast({}) {
             day={day}
             key={time}
             date={dateToDDMM(date)}
-            temperature={temperature.toFixed(0) // aucun chiffre après la virgule.
-            }
+            temperature={temperature.toFixed(0) }
           />
         );
       })}

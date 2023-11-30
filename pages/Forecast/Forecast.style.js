@@ -16,7 +16,9 @@ const s = StyleSheet.create({
     fontSize: 20,
   },
   forecastList:{
-    marginTop:50,
+    marginTop:20,
+    flex: 1,
+    justifyContent: "space-evenly",
   }
 });
 

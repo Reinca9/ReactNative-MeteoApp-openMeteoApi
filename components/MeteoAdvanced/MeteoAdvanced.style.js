@@ -15,10 +15,10 @@ const s = StyleSheet.create({
 });
 
 export function StyledLabel({ children }) {
-  return <Txt style={{ fontSize: 15 }}>{children}</Txt>;
+  return <Txt style={{ fontSize: 18 }}>{children}</Txt>;
 }
 export function StyledValue({ children }) {
-  return <Txt style={{ fontSize: 20 }}>{children}</Txt>;
+  return <Txt style={{ fontSize: 22 }}>{children}</Txt>;
 }
 
 export function StyledContainer({ children }) {

@@ -17,10 +17,16 @@ const s = StyleSheet.create({
   date: {
     fontSize: 20,
   },
-  temperature:{
-    width:50,
-    textAlign: "right",
-  }
+  temperatureContainer: {
+    flexDirection: "row", // Ensures that temperature and symbol are in the same row
+    alignItems: "center", // Aligns items vertically in the center
+  },
+  temperature: {
+    fontSize: 40,
+  },
+  temperatureSymbol: {
+    fontSize: 40, // You can adjust this as needed
+  },
 });
 
 export { s };
